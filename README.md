@@ -2,3 +2,5 @@
 WIP. NLP system that will learn to write ghazals (form of Urdu poetry) in the style of poet Allama Iqbal
 # Sources
 Poetry books (located in books-1-2-3-4) taken from iqbal-demystified-dataset: https://github.com/AzeemGhumman/iqbal-demystified-dataset
+Model heavily inspired by Tensorflow's NLP Zero to Hero series on YouTube: https://www.youtube.com/watch?v=fNxaJsNG3-s&list=PLQY2H8rRoyvzDbLUZkbudP-MFQZwNmU4S
+Idea inspired by John Fish's Shakespeare AI video: https://www.youtube.com/watch?v=s1Skhh_Rz58
