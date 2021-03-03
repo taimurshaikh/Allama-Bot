@@ -67,4 +67,5 @@ def generateWords(model, seedText, language, numWords=100):
                 break
         seedText += " " + outputWord
     return seedText + " "
+    
 # trainAndSaveModel(urXs, urYs, totalUrWords, maxUrSequenceLen, 'ur')
