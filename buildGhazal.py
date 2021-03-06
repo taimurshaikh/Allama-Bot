@@ -9,8 +9,6 @@ from textPostProcessing import ENG_OUTPUT_FILE, UR_OUTPUT_FILE
 # For every following sher, pick random line, then pick line from X. Pair these together to create new sher
 # Somewhat ensure all lines have same metre and syllabic length
 
-
-
 def buildMatla():
     pass
 
@@ -25,7 +23,7 @@ def buildRhymeDict():
     rhymes = {}
 
 poem = []
-with open(UR_OUTPUT_FILE, "r", encoding='utf-8') as f:
+with open(ENG_OUTPUT_FILE, "r", encoding='utf-8') as f:
     lines = f.readlines()
     for i in range(7):
         sher = []
