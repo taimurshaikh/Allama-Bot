@@ -23,7 +23,7 @@ def buildRhymeDict():
     rhymes = {}
 
 poem = []
-with open(ENG_OUTPUT_FILE, "r", encoding='utf-8') as f:
+with open(UR_OUTPUT_FILE, "r", encoding='utf-8') as f:
     lines = f.readlines()
     for i in range(7):
         sher = []

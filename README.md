@@ -8,5 +8,6 @@ Idea inspired by John Fish's Shakespeare AI video: https://www.youtube.com/watch
 Full pipeline has not been implemented yet. Feel free to uncomment the bottom line of code in nlpModel.py to train a new model, or run buildGhazal.py to print out generated lines in a couplet format.
 # Requirements
 tensorflow
+numpy
 syllables
 Run pip install -r requirements.txt to install all dependencies
