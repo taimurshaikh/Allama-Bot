@@ -39,9 +39,9 @@ def writeLinesToFile(model, lang, filePath, startWords):
     textString = removeDuplicatePhrases(textString)
     lines = textString.split('\n')
 
-    with open(filePath, "w", encoding='utf-8') as f:
+    with open(filePath, "a", encoding='utf-8') as f:
         for line in lines:
-            f.write(line)
+            f.write(line.strip())
             f.write("\n")
 
 def removeDuplicatePhrases(text):
@@ -67,7 +67,7 @@ def removeDuplicatePhrases(text):
 
     return ' '.join(textLst)
 
-def splitIntoLines(text, syllablesPerLine=15, rangeOfVals=2, numLines=7):
+def splitIntoLines(text, syllablesPerLine=AVG_UR_SYLLABLES, rangeOfVals=2, numLines=7):
     """ Splits block of text into list of lines with ROUGHLY the same amount of syllables """
     textLst = text.split(' ')
     lines = []
@@ -79,7 +79,7 @@ def splitIntoLines(text, syllablesPerLine=15, rangeOfVals=2, numLines=7):
         # We don't want to end a line on e (of)
         if word.strip().lower() == 'e':
             continue
-        if currentSyllables >= AVG_UR_SYLLABLES:
+        if currentSyllables >= syllablesPerLine:
             lines.append(currentLine)
             currentLine = ""
             currentSyllables = 0
