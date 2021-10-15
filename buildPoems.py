@@ -21,7 +21,7 @@ def main():
     with open(UR_OUTPUT_FILE, "r", encoding='utf-8') as f:
         generatedLines = list(set([x.strip() for x in f.readlines()]))
     # writeGhazalsToFile(generatedLines, POEMS_OUTPUT_FILE)
-    translateGhazals(POEMS_OUTPUT_FILE, TRANSLATED_OUTPUT_FILE)
+    print(buildGhazal(generatedLines))
 
 def buildMatla(generatedLines):
     """
