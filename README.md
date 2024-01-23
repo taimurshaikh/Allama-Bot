@@ -2,6 +2,7 @@
 Allama-Bot is an NLP system that will generates ghazals (form of Urdu poetry) in the style of poet Allama Iqbal
 # Featured
 https://www.landofthepure.net/post/the-allama-bot-ai-meets-culture
+
 https://www.landofthepure.net/post/the-allama-bot-anthology
 # Sources
 Poetry books (located in books-1-2-3-4) taken from iqbal-demystified-dataset: https://github.com/AzeemGhumman/iqbal-demystified-dataset
