@@ -1,3 +1,5 @@
+# NOTE
+This old project is in the middle of a MASSIVE overhaul that will make it much more interactive and overall a much cooler app! Stay tuned 👀
 # Allama-Bot
 Allama-Bot is an NLP system that will generates ghazals (form of Urdu poetry) in the style of poet Allama Iqbal
 # Featured
